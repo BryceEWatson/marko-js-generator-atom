@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-workspace": [
+      {
+        "label": "Marko-js: Create ui component",
+        "command": "marko-js-generate:create-component"
+      },
+      {
+        "label": "Marko-js: Create widget",
+        "command": "marko-js-generate:create-widget"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Marko-js Generate",
+          "submenu": [
+            {
+              "label": "Generate ui component",
+              "command": "marko-js-generate:create-component"
+            },
+            {
+              "label": "Generate widget",
+              "command": "marko-js-generate:create-widget"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
